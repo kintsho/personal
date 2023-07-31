@@ -1,0 +1,40 @@
+<html>
+    <body>
+        <style>
+            .tables th, td{
+                border: 1px solid black;
+                text-align: center;
+                padding: auto;
+            }               
+            
+        </style>
+        <button onclick="restfunction()">Rest</button>
+        <table class="tables">
+            <tr>
+              <th>Name</th>
+              <th>Gender</th>
+              <th>Class</th>
+            </tr>
+            <tr class="tr1" >
+              <td onclick="t1()">kinley</td>
+              <td onclick="t2()">M</td>
+              <td onclick="t3()">1</td>
+            </tr>
+            <tr class="tr2" >
+              <td onclick="t3()">zangmo</td>
+              <td onclick="t4()">F</td>
+              <td onclick="t5()">2</td>
+            </tr>
+          </table>
+
+          <script>
+            function restfunction(){
+
+            }
+
+        function t1(){
+            document.getElementById("tr1").blur();
+        }
+          </script>
+    </body>
+</html>
